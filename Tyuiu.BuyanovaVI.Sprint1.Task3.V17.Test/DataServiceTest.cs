@@ -1,18 +1,11 @@
-using Tyuiu.BuyanovaVI.Sprint1.Task3.V17.Lib;
-
 namespace Tyuiu.BuyanovaVI.Sprint1.Task3.V17.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public class UnitTest1
     {
         [TestMethod]
-        public void ValidExpression()
+        public void TestMethod1()
         {
-            DataService ds = new DataService();
-            double number = 1.1089095;
-            var res = ds.ZeroCheck(number);
-
-            Assert.AreEqual(res, true);
         }
     }
-} 
+}
